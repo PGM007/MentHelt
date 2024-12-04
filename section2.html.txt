@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 2 - Psychological Distress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            width: 60%;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Section 2: Psychological Distress</h2>
+        <form action="section3.html" method="POST">
+            <label>1. Have you been able to concentrate on what you're doing due to the migration of your loved one(s)?</label><br>
+            <select name="concentration">
+                <option value="better">Better than usual</option>
+                <option value="same">Same as usual</option>
+                <option value="less">Less than usual</option>
+                <option value="much-less">Much less than usual</option>
+            </select><br><br>
+
+            <!-- Add more distress questions -->
+
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+</body>
+</html>
